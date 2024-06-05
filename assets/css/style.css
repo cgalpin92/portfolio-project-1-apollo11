@@ -31,6 +31,41 @@ h1 {
     padding: 3% 3%;
 }
 
+
+nav {
+    position: absolutes;
+    width: 30%;
+    top: 100%;
+    /*float: right;*/
+    /*padding-right: 40%;*/
+    padding-left: 3%;
+    padding-bottom: 3%;
+    display: none;
+    
+}
+
+#main-menu {
+    /*display: none;*/
+    list-style-type: none;  
+    letter-spacing: 5px;
+}
+
+#main-menu li {
+    margin-bottom: 1em;
+}
+
+.active {
+    color: darkred;
+    font-weight: bolder;
+    text-decoration: underline darkred;
+    font-size: larger;
+}
+
+nav a {
+    text-decoration: none; 
+    color: white;
+}
+
 /* Main Content */
 main {
     background-color: white;
