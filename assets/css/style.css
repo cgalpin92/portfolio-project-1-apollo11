@@ -1,4 +1,18 @@
-/* Basic Styles */
+* {
+    /* to remove any outside space created by the browser */
+    padding: 0;
+    margin: 0;
+    /* to allow the padding and border in an elements total width and height*/
+    box-sizing: border-box;
+}
+
+/* Generic Body Styles */
+body {
+    background-color: whitesmoke;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
 
 /* Header */
 header {
@@ -9,6 +23,9 @@ header {
 /* Main Content */
 main {
     background-color: white;
+    color: black;
+    /* To ensure that the main element takes up any available space and pushes the footer down */
+    flex: 1 0 auto;
 }
 
 /* Footer */
