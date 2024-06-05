@@ -1,0 +1,18 @@
+/* Basic Styles */
+
+/* Header */
+header {
+    background-color: black;
+    color: white;
+}
+
+/* Main Content */
+main {
+    background-color: white;
+}
+
+/* Footer */
+footer {
+    background-color: darkblue;
+    color: white;
+}
